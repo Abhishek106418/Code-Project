@@ -1,36 +1,36 @@
-Django Tweet App
-A functional social media application built with Django that allows users to share thoughts and images in a streamlined environment.
+# 🐦 Django Tweet App
 
-Features
-User Authentication: Secure Registration, Login, and Logout functionality.
+A functional social media application built with Django that allows users to share thoughts and images in a streamlined environment. This project demonstrates the full lifecycle of a web application, from backend logic and database management to frontend styling and cloud deployment.
 
-Tweet Management: Create, Read, Update, and Delete (CRUD) operations for tweets.
+## 🚀 Live Demo
+Check out the live application here: [http://abhishek106418.pythonanywhere.com/tweet/](http://abhishek106418.pythonanywhere.com/tweet/)
 
-Permissions: Users can only Edit or Delete their own tweets; other users' posts are read-only.
+---
 
-Media Support: Users can upload images with their tweets and edit them later.
+## ✨ Features
 
-Responsive UI: Styled using Bootstrap for a clean, mobile-friendly experience.
+* **User Authentication:** Secure Registration, Login, and Logout functionality using Django's built-in authentication system.
+* **Tweet Management:** Full CRUD (Create, Read, Update, Delete) operations for tweets.
+* **Smart Permissions:** A secure permission system where users can only Edit or Delete their own tweets, while others' posts remain read-only.
+* **Media Support:** Integrated image handling allowing users to upload, display, and update images within their tweets.
+* **Responsive UI:** Styled with **Bootstrap 5** for a modern, "mobile-first" user experience.
 
-Technology Stack
-Backend: Python, Django
+---
 
-Frontend: HTML, CSS, Bootstrap
+## 🛠️ Technology Stack
 
-Database: SQLite (default Django)
+* **Backend:** Python 3.x, Django 5.x
+* **Frontend:** HTML5, CSS3, Bootstrap 5
+* **Database:** SQLite (Development)
+* **Deployment:** PythonAnywhere, Git
 
-How to Run the Project
-To get this project running locally, follow these steps:
+---
 
-Install Dependencies:
+## ⚙️ How to Run Locally
 
-Bash
-pip install -r requirements.txt
-Apply Database Migrations:
+To get this project running on your local machine, follow these steps:
 
-Bash
-python manage.py migrate
-Start the Development Server:
-
-Bash
-python manage.py runserver
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/Abhishek106418/Code-Project.git](https://github.com/Abhishek106418/Code-Project.git)
+   cd Code-Project/chaiheadq
